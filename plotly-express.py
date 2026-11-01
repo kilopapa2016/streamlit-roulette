@@ -11,7 +11,7 @@ st.title("🎡 파이썬 행운의 룰렛 게임")
 st.write("항목을 입력하고 버튼을 누르면 파이썬이 당첨자를 추첨하고 룰렛을 돌립니다!")
 
 # 사용자로부터 추첨 항목 입력받기 (기본값: 점심 메뉴 6가지)
-default_items = "치킨\n피자\n삼겹살\n초밥\n떡볶이\n햄버거"
+default_items = "양념치킨\n피자\n삼겹살\n초밥\n떡볶이\n햄버거"
 raw_input = st.text_area(
     "추첨할 항목을 입력하세요 (줄바꿈 또는 쉼표로 구분)", 
     value=default_items, 
